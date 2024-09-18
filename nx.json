@@ -1,0 +1,13 @@
+{
+  "installation": {
+    "version": "19.7.3"
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ]
+}

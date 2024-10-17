@@ -26,7 +26,9 @@
       },
       "cache": true,
       "inputs": [
-        "{projectRoot}/b"
+        {
+          "dependentTasksOutputFiles": "{projectRoot}/b"
+        }
       ],
       "outputs": [
         "{projectRoot}/c"
